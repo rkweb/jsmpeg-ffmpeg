@@ -5,71 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>jsmpeg-ffmpeg</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
-
-        html,
-        body {
-            height: 100%;
-            overflow: hidden;
-        }
-        .jsmpeg{
-            width: 100%;
-            height: 100%;
-        }
-        .zg{
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            left: 0;
-            top: 0;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="jsmpeg" data-url="out3.ts" data-autoplay="false" data-preserveDrawingBuffer="true"></div>
-    <div class="zg"></div>
-
-    <script src="http://go.163.com/2015/public/common/js/zepto.min.js"></script>
-    <script src="jsmpeg.min.js"></script>
-    <script src="webaudio.js"></script>
-    <script>
-        $('.jsmpeg canvas').css({
-            width: $(window).width()
-        });
-
- 
-        $('.zg').on('touchstart', function () {
-            $('.jsmpeg canvas')[0].dataset.autoplay = true;
-        });
-
-    </script>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-<!-- ios 微信未解锁声音 -->
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
         * {
@@ -98,10 +33,15 @@
         });
 
         var canvas = document.querySelector('#canvas');
-        var player = new JSMpeg.Player('out.ts', { canvas: canvas, loop: true, autoplay: false, audio: true });
+        var player = new JSMpeg.Player('out3.ts', { canvas: canvas, loop: true, autoplay: false, audio: true });
         player.audioOut.unlock(onUnlocked);
+        $(document).on('WeixinJSBridgeReady', function () {
+             player.audioOut.unlock(onUnlocked);
+              player.play();
+        });
 
         $('body').on('touchstart', function () {
+            //player.audioOut.unlock(onUnlocked);
             player.play();
         });
 
@@ -113,4 +53,4 @@
     </script>
 </body>
 
-</html> -->
+</html>
