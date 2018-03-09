@@ -44,11 +44,6 @@
         player.audioOut.unlock(onUnlocked);
         player.play();
 
-        $('body').on('touchstart', function () {
-            //player.audioOut.unlock(onUnlocked);
-            player.play();
-        });
-
         function onUnlocked() {
             player.volume = 1;
 
