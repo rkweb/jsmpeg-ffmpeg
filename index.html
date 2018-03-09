@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=0" name="viewport" />
     <title>Document</title>
     <style>
         * {
@@ -27,6 +26,9 @@
     <script src="jsmpeg.min.js"></script>
     <script src="webaudio.js"></script>
     <script>
+        $(document).on('touchmove', function (evt) {
+            evt.preventDefault();
+        });
         $('#canvas').css({
             width: $(window).width(),
             height: $(window).height()
@@ -36,9 +38,11 @@
         var player = new JSMpeg.Player('out3.ts', { canvas: canvas, loop: true, autoplay: false, audio: true });
         player.audioOut.unlock(onUnlocked);
         $(document).on('WeixinJSBridgeReady', function () {
-             player.audioOut.unlock(onUnlocked);
-              player.play();
+            player.audioOut.unlock(onUnlocked);
+            player.play();
         });
+        player.audioOut.unlock(onUnlocked);
+        player.play();
 
         $('body').on('touchstart', function () {
             //player.audioOut.unlock(onUnlocked);
