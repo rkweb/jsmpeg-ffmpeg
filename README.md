@@ -4,9 +4,9 @@ jsmpeg&amp;ffmpeg study
 
 ##转换.ts
 ###从视频提取音频
-...
-ffmpeg -i video.mp4 -f mp3 -vn video.mp3
-...
+
+> ffmpeg -i video.mp4 -f mp3 -vn video.mp3
+
 
 
 ###视频转 .ts
