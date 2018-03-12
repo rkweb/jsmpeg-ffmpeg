@@ -9,7 +9,9 @@ jsmpeg&amp;ffmpeg study
   右键我的电脑-属性-高级系统设置-环境变量-编辑path,在变量原始值后面加入c:\ffmpeg\bin;（根据你的安装包解压目录）;
 3.在命令行输入 ffmpeg --version查看FFMPEG版本信息，可以查看到，说明安装成功.
 ```
-###mac环境下待更新...
+图文教程（看不明白上面，可以看）:(https://zh.wikihow.com/%E5%9C%A8Windows%E4%B8%8A%E5%AE%89%E8%A3%85FFmpeg%E7%A8%8B%E5%BA%8F)
+
+### mac环境下待更新...
 
 
 ## 2. 使用FFmpeg
@@ -60,9 +62,27 @@ jsmpeg&amp;ffmpeg study
     }
     
     //如需查看详细demo，看自行查看上面的index.html
+    
+    
+    //
+    player.play() 播放视频
+           .pause() 暂停播放
+           .stop()停止播放并回到视频开始
+           .destroy()停止播放，清楚WebGL和WebAudio
+           .volume 获取或者设置音量（0 - 1 ）
+           .currentTime 获取或者设置播放位置
 </script>
 ```
+
+## demo
+查看demo:[http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/](http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/)
+
+视频切换demo:[http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/index2.html](http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/index2.html)
+
+## 扩展
 更多参数请访问:[https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
+
+更多视频转换配置请访问:[http://www.ffmpeg.org/](http://www.ffmpeg.org/)
 
 
 
