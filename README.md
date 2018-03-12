@@ -71,7 +71,7 @@ jsmpeg&amp;ffmpeg study
 ## 扩展
 更多参数请访问:[https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
 
-更多转行配置请访问:[http://www.ffmpeg.org/](http://www.ffmpeg.org/)
+更多视频转换配置请访问:[http://www.ffmpeg.org/](http://www.ffmpeg.org/)
 
 
 
