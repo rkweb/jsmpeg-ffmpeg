@@ -62,6 +62,15 @@ jsmpeg&amp;ffmpeg study
     }
     
     //如需查看详细demo，看自行查看上面的index.html
+    
+    
+    //
+    player.play() 播放视频
+           .pause() 暂停播放
+           .stop()停止播放并回到视频开始
+           .destroy()停止播放，清楚WebGL和WebAudio
+           .volume 获取或者设置音量（0 - 1 ）
+           .currentTime 获取或者设置播放位置
 </script>
 ```
 
