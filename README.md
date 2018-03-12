@@ -59,6 +59,7 @@ jsmpeg&amp;ffmpeg study
 
     }
     
+    //如需查看详细demo，看自行查看上面的index.html
 </script>
 ```
 更多参数请访问:[https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
