@@ -38,7 +38,6 @@
         var player = new JSMpeg.Player('out3.ts', { canvas: canvas, loop: true, autoplay: false, audio: true });
         $(document).on('WeixinJSBridgeReady', function () {
             player.audioOut.unlock(onUnlocked);
-            player.play();
         });
         player.audioOut.unlock(onUnlocked);
         player.play();
