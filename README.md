@@ -9,6 +9,8 @@ jsmpeg&amp;ffmpeg study
   右键我的电脑-属性-高级系统设置-环境变量-编辑path,在变量原始值后面加入c:\ffmpeg\bin;（根据你的安装包解压目录）;
 3.在命令行输入 ffmpeg --version查看FFMPEG版本信息，可以查看到，说明安装成功.
 ```
+图文教程（看不明白上面，可以看）:[https://zh.wikihow.com/%E5%9C%A8Windows%E4%B8%8A%E5%AE%89%E8%A3%85FFmpeg%E7%A8%8B%E5%BA%8F)
+
 ###mac环境下待更新...
 
 
