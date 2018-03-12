@@ -66,7 +66,7 @@ jsmpeg&amp;ffmpeg study
 ```
 
 ## demo
-查看demo:[http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/)
+查看demo:[http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/](http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/)
 
 
 更多参数请访问:[https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
