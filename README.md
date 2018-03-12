@@ -64,6 +64,11 @@ jsmpeg&amp;ffmpeg study
     //如需查看详细demo，看自行查看上面的index.html
 </script>
 ```
+
+## demo
+查看demo:[http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/)
+
+
 更多参数请访问:[https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
 
 
