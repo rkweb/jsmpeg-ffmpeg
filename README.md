@@ -55,7 +55,7 @@ jsmpeg&amp;ffmpeg study
     }
     
     
-    (更多参数请访问)[https://github.com/phoboslab/jsmpeg]
+    [更多参数请访问][https://github.com/phoboslab/jsmpeg]
 </script>
 ```
 
