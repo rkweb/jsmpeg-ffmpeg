@@ -1,15 +1,18 @@
 # jsmpeg-ffmpeg
 jsmpeg&amp;ffmpeg study
 
-## 安装FFmpeg
+## 1. 安装FFmpeg
 ### window环境
 ```
-1.下载并解压安装包ffmpeg安装包
+1.下载并解压安装包ffmpeg安装包（可以直接在上面下载）
 2.配置环境变量
   右键我的电脑-属性-高级系统设置-环境变量-编辑path,在变量原始值后面加入c:\ffmpeg\bin;（根据你的安装包解压目录）;
 3.在命令行输入 ffmpeg --version查看FFMPEG版本信息，可以查看到，说明安装成功.
 ```
-## 使用FFmpeg
+###mac环境下待更新...
+
+
+## 2. 使用FFmpeg
 ```
 1.将MP4视频文件考入解压目录
 2.在该目录打开命令行
@@ -18,7 +21,9 @@ jsmpeg&amp;ffmpeg study
   out.ts为导出后的文件名称（可自定义）
   640x1236为视频宽高
 ```
-## 使用jsmpeg
+
+
+## 3. 使用jsmpeg
 ### html
 ```
 <canvas id="canvas"></canvas>
@@ -54,6 +59,7 @@ jsmpeg&amp;ffmpeg study
 
     }
     
+    //如需查看详细demo，看自行查看上面的index.html
 </script>
 ```
 更多参数请访问:[https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
@@ -61,7 +67,7 @@ jsmpeg&amp;ffmpeg study
 
 
 
-## 视频转换格式
+## 更多转换命令
 ```
 1.从视频提取音频
 > ffmpeg -i video.mp4 -f mp3 -vn video.mp3
