@@ -36,7 +36,6 @@
 
         var canvas = document.querySelector('#canvas');
         var player = new JSMpeg.Player('out3.ts', { canvas: canvas, loop: true, autoplay: false, audio: true });
-        player.audioOut.unlock(onUnlocked);
         $(document).on('WeixinJSBridgeReady', function () {
             player.audioOut.unlock(onUnlocked);
             player.play();
