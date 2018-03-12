@@ -2,7 +2,7 @@
 jsmpeg&amp;ffmpeg study
 
 ## 安装FFmpeg
-###window环境
+### window环境
 ```
 1.下载并解压安装包ffmpeg安装包
 2.配置环境变量
@@ -55,7 +55,7 @@ jsmpeg&amp;ffmpeg study
     }
     
     
-    //[更多参数请访问]"https://github.com/phoboslab/jsmpeg"
+    [更多参数请访问](https://github.com/phoboslab/jsmpeg)
 </script>
 ```
 
