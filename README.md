@@ -1,7 +1,7 @@
 # jsmpeg-ffmpeg
 jsmpeg&amp;ffmpeg study
 
-## 安装FFmpeg
+## 1. 安装FFmpeg
 ### window环境
 ```
 1.下载并解压安装包ffmpeg安装包（可以直接在上面下载）
@@ -12,7 +12,7 @@ jsmpeg&amp;ffmpeg study
 ###mac环境下待更新...
 
 
-## 使用FFmpeg
+## 2. 使用FFmpeg
 ```
 1.将MP4视频文件考入解压目录
 2.在该目录打开命令行
@@ -23,7 +23,7 @@ jsmpeg&amp;ffmpeg study
 ```
 
 
-## 使用jsmpeg
+## 3. 使用jsmpeg
 ### html
 ```
 <canvas id="canvas"></canvas>
