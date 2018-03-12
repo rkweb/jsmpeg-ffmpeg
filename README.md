@@ -11,7 +11,7 @@ jsmpeg&amp;ffmpeg study
 ```
 图文教程（看不明白上面，可以看）:[https://zh.wikihow.com/%E5%9C%A8Windows%E4%B8%8A%E5%AE%89%E8%A3%85FFmpeg%E7%A8%8B%E5%BA%8F)
 
-###mac环境下待更新...
+### mac环境下待更新...
 
 
 ## 2. 使用FFmpeg
