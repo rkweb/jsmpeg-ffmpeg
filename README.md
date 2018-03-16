@@ -54,10 +54,10 @@ jsmpeg&amp;ffmpeg study
     //微信下解锁声音
     $(document).on('WeixinJSBridgeReady', function () {
         player.audioOut.unlock(onUnlocked);
-        player.play();
     });
     player.audioOut.unlock(onUnlocked);
-    player.play();
+    //调用播放
+    player.play();
 
     function onUnlocked() {
         //设置音量
