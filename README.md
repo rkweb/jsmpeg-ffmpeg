@@ -13,8 +13,8 @@ jsmpeg&amp;ffmpeg study
 
 ### mac环境
 ```
-1.安装Homebrew
-2.命令行运行 brew install ffmpeg
+1.安装Homebrew 终端运行 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+2.安装ffmpeg 终端运行 brew install ffmpeg
 ```
 
 
