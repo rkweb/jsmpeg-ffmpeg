@@ -83,6 +83,8 @@ jsmpeg&amp;ffmpeg study
 
 视频切换demo:[http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/index2.html](http://test.go.163.com/web/sale_go/20180312_videoAutoPlay/index2.html)
 
+解决ios下 safari chrome浏览器解锁声音demo:[http://go.163.com/web/20180321_zx/index.html](http://go.163.com/web/20180321_zx/index.html)
+
 ## 扩展
 更多参数请访问:[https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
 
